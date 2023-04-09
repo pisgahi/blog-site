@@ -1,0 +1,403 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+p{
+  color: #5a5858;
+}
+
+/* NAVIGATION */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 80px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.nav{
+  margin: auto;
+}
+
+.side__menu{
+  margin-right: auto;
+}
+
+.user__img, 
+.write, 
+.side__menu{
+  margin-left: 30px;
+  scale: 1.25;
+}
+
+.notification__bell{
+  margin-left: auto;
+  scale: 1.25;
+}
+
+.write__btn{
+  height: 35px;
+  max-width: 90px;
+  width: 75px;
+  border-radius: 60px;
+  margin-left: 15px;
+  border: 1px solid #C4C4C4;
+  background-color: #ffffff;
+}
+
+.user__img{
+  scale: 1.25;
+  scale: 0.60;
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* POST */
+
+.post__container{
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #C4C4C4;
+  height: 210px;
+  width: relative;
+  max-width: 1200px;
+}
+
+.user__img--post{
+  scale: 1.25;
+  scale: 0.60;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.user__info{
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 8px;
+}
+
+.company__position{
+  color: #ACACAC;
+}
+
+.post__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -8px 20px 0 22px;
+  max-width: 1000px;
+}
+
+.post__title{
+  margin: 8px 0px
+}
+
+/* SEARCH AREA */
+
+.search__options{
+  height: 150px;
+  width: 900px;
+  margin: auto;
+}
+
+.search__options__container{
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  height: 40px;
+  margin: 0 0 0 8px;
+}
+
+.topic__btn{
+  height: 35px;
+  max-width: 100px;
+  width: 90px;
+  border-radius: 60px;
+  margin-left: 15px;
+  border: 1px solid #C4C4C4;
+  background-color: #F5F6F5;
+}
+
+.search__topics{
+  margin: auto;
+}
+
+.search__and__topics{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  margin: 0 0 0 6px;
+}
+
+.search__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #C4C4C4;
+  width: 450px;
+  height: 40px;
+  border-radius: 60px;
+}
+
+.search__bar{
+  height: 35px;
+  padding: 5px 10px;
+  border-radius: 60px;
+  width: 75%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.magnifying__glass{
+  height: 25px;
+  margin: auto 10px auto 0px;
+  scale: 0.75;
+}
+
+
+.feed__options{
+  height: 75px;
+  display: flex;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.feed__title{
+  width: 250px;
+  margin: 0 30px 0 8px;
+}
+
+.feed__type{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 40px;
+}
+
+.following__btn__container{
+  min-width: none;
+  width: 550px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 5px 0 20px;
+}
+
+.article__source--btn{
+  height: 35px;
+  min-width: 100px;
+  border-radius: 60px;
+  margin-left: 15px;
+  border: 1px solid #C4C4C4;
+  background-color: #ffffff;
+}
+
+/* PROFILE SNIPPET */
+
+.user__info{
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 8px;
+}
+.user__img--post{
+  scale: 1.25;
+  scale: 0.60;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.company__position--snippet{
+  font-size: 15px;
+  color: #ACACAC; 
+}
+
+.follow__btn--snippet{
+  height: 35px;
+  max-width: 90px;
+  width: 75px;
+  border-radius: 60px;
+  margin-left: 15px;
+  border: 1px solid #C4C4C4;
+  background-color: #ffffff;
+}
+
+/* POST SNIPPET */
+
+.post__content--snippet{
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #C4C4C4;
+  height: 170px;
+  width: 900px;
+  max-width: 1200px;
+}
+
+.user__img--post--snippet{
+  scale: .5;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.user__info--snippet{
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 8px;
+}
+
+.post__content--snippet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 20px -20px 22px;
+  max-width: 300px;
+}
+
+.post__title--snippet{
+  margin: 8px 0px;
+  font-size: 20px;
+}
+
+.user__name__date--snippet{
+  font-size: 15px;
+  color: #ACACAC;
+}
+
+/* INTERESTS */
+
+.interests__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid #C4C4C4;
+  height: relative;
+  width: 380px;
+}
+
+.profile__interests--title{
+  margin: 20px 0 10px 0;
+}
+
+/* HOME LAYOUT */
+
+.home__layout--container{
+  display: flex;
+  justify-content: center;
+  margin: 10px 60px;
+}
+
+.right__side{
+  margin-left: 20px;
+}
+
+/* PHONES */
+
+@media (max-width: 480px){
+  .right__side{
+    display: none;
+  }
+  
+  .left__side{
+    width: 400px;
+  }
+  
+  .post__container{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #C4C4C4;
+    height: 210px;
+    width: relative;
+    max-width: 460px;
+    margin-bottom: 50px;
+  }
+  
+  .search__options{
+    height: 150px;
+    width: 400px;
+    margin: auto;
+  }
+  
+  .search__options__container{
+    display: none;
+  }
+  
+  .feed__options{
+    height: 75px;
+    width: 400px;
+    margin: auto;
+  }
+
+  .notification__bell, 
+  .user__img{
+    display: none;
+  }
+  
+}
+
+/* TABLETS */
+
+@media (max-width: 768px){
+  .interests__container, 
+  .post__interests--container{
+    width: 300px;
+  }
+
+  .interests__container{
+    margin: auto;
+  }
+
+  .post__para--snippet{
+    width: 300px;
+  }
+  
+  .left__side{
+    width: 450px;
+  }
+  
+  .post__container{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #C4C4C4;
+    height: 210px;
+    width: relative;
+    max-width: 460px;
+    margin-bottom: 50px;
+  }
+  
+  .search__options{
+    height: 150px;
+    width: 400px;
+    margin: auto;
+  }
+  
+  .search__options__container{
+    display: none;
+  }
+  
+  .feed__options{
+    height: 75px;
+    width: 400px;
+    margin: auto;
+    justify-content: space-around;
+  }
+}
+
+/* The following designs are inspired from the source 
+cited below. This project is a way to test my capablitees 
+of implementing a blog-like design, as well as improving 
+my overall design skills. Not intended for commericial use. 
+
+Source: https://dribbble.com/shots/19589289-Blogging-platform */
