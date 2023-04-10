@@ -197,7 +197,7 @@ header{
 
 .article__source--btn{
   height: 35px;
-  min-width: 100px;
+  min-width: 85px;
   border-radius: 60px;
   margin-left: 15px;
   border: 1px solid #C4C4C4;
@@ -323,21 +323,31 @@ header{
     max-width: 460px;
     margin-bottom: 50px;
   }
+
+  .search__container{
+    width: 350px;
+    margin: auto
+  }
   
   .search__options{
     height: 150px;
-    width: 400px;
+    width: 300px;
     margin: auto;
-  }
-  
-  .search__options__container{
-    display: none;
   }
   
   .feed__options{
     height: 75px;
     width: 400px;
     margin: auto;
+  }
+
+  .feed__title{
+    width: 85px;
+    margin: 0 30px 0 16px;
+  }
+
+  .article__source--btn{
+    margin-right: 16px;
   }
 
   .notification__bell, 
